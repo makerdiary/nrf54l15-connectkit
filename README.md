@@ -1,0 +1,1 @@
+# nrf54l15-connectkit
