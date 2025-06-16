@@ -1,0 +1,12 @@
+board:
+  name: nrf54l15_connectkit
+  full_name: nRF54L15 Connect Kit
+  vendor: makerdiary
+  socs:
+    - name: nrf52820
+    - name: nrf54l15
+      variants:
+        - name: xip
+          cpucluster: cpuflpr
+        - name: ns
+          cpucluster: cpuapp
