@@ -23,6 +23,7 @@ name: Documentation
 on:
   push:
     paths:
+      - '.github/workflows/documentation.yml'
       - 'mkdocs.yml'
       - 'scripts/requirements-docs.txt'
       - 'docs/**'

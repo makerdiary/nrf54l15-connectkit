@@ -4,6 +4,7 @@ name: Twister Apps & Samples
 on:
   push:
     paths:
+      - '.github/workflows/twister-apps-samples.yml'
       - 'applications/**'
       - 'boards/**'
       - 'samples/**'
