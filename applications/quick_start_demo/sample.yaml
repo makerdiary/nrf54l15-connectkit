@@ -1,0 +1,8 @@
+sample:
+  name: Quick Start Demo
+tests:
+  application.quick_start_demo:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
