@@ -1,0 +1,63 @@
+sample:
+  name: OpenThread CLI sample
+  description: Test OpenThread Command Line Interface.
+
+tests:
+  sample.openthread.cli:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.cli.multiprotocol:
+    sysbuild: true
+    build_only: true
+    extra_args:
+      - cli_SNIPPET="ci;logging;multiprotocol;tcp"
+      - FILE_SUFFIX=ble
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.cli.singleprotocol:
+    sysbuild: true
+    build_only: true
+    extra_args: >
+      cli_SNIPPET="ci;logging;tcp"
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.cli.low_power:
+    sysbuild: true
+    build_only: true
+    extra_args: >
+      cli_SNIPPET="ci;low_power"
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  # Build integration regression protection.
+  sample.nrf_security.openthread.integration:
+    sysbuild: true
+    build_only: true
+    extra_args:
+      - cli_SNIPPET=ci
+      - CONFIG_NRF_SECURITY=y
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.cli.tcat:
+    sysbuild: true
+    build_only: true
+    extra_args:
+      - cli_SNIPPET="ci;tcat;tcp"
+      - FILE_SUFFIX=ble
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.cli.diag_gpio:
+    sysbuild: true
+    build_only: true
+    extra_args: >
+      cli_SNIPPET=diag_gpio
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns

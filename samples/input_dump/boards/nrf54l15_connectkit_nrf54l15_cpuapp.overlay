@@ -1,0 +1,16 @@
+/*
+ * Copyright 2024 Nordic Semiconductor ASA
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/ {
+	qdec {
+		compatible = "gpio-qdec";
+		gpios = <&gpio1 8 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>,
+				<&gpio1 9 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+		steps-per-period = <4>;
+		zephyr,axis = <INPUT_REL_WHEEL>;
+		sample-time-us = <2000>;
+		idle-timeout-ms = <200>;
+	};
+};

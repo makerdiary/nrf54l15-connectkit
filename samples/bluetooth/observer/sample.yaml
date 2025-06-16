@@ -1,0 +1,14 @@
+sample:
+  name: Bluetooth Low Energy Observer sample
+tests:
+  sample.bluetooth.observer:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+  sample.bluetooth.observer.extended:
+    sysbuild: true
+    build_only: true
+    extra_args: CONF_FILE="prj_extended.conf"
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp

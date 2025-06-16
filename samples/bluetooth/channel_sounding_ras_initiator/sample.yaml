@@ -1,0 +1,8 @@
+sample:
+  name: Bluetooth LE Channel Sounding Initiator with RREQ
+tests:
+  sample.bluetooth.channel_sounding_ras_initiator:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp

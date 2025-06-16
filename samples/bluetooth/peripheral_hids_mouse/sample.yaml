@@ -1,0 +1,15 @@
+sample:
+  name: Bluetooth LE HIDS Mouse sample
+tests:
+  sample.bluetooth.peripheral_hids_mouse:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+  sample.bluetooth.peripheral_hids_mouse.no_sec:
+    sysbuild: true
+    build_only: true
+    extra_configs:
+      - CONFIG_BT_HIDS_SECURITY_ENABLED=n
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp

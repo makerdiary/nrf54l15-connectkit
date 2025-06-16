@@ -1,0 +1,8 @@
+sample:
+  name: Bluetooth Low Energy Beacon sample
+tests:
+  sample.bluetooth.beacon:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp

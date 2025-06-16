@@ -1,0 +1,20 @@
+sample:
+  name: Bluetooth LE LED Button service sample
+tests:
+  sample.bluetooth.peripheral_lbs:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+  sample.bluetooth.peripheral_lbs_minimal:
+    sysbuild: true
+    build_only: true
+    extra_args: FILE_SUFFIX=minimal
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+  sample.bluetooth.peripheral_lbs_no_security:
+    sysbuild: true
+    build_only: true
+    extra_args: CONFIG_BT_LBS_SECURITY_ENABLED=n
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp

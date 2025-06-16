@@ -1,0 +1,57 @@
+sample:
+  name: System OFF sample
+tests:
+  sample.system_off:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+  sample.system_off.retained_mem:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+    extra_configs:
+      - CONFIG_APP_USE_RETAINED_MEM=y
+  sample.system_off.grtc_wakeup:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+    extra_configs:
+      - CONFIG_GRTC_WAKEUP_ENABLE=y
+      - CONFIG_GPIO_WAKEUP_ENABLE=n
+  sample.system_off.retained_mem.grtc_wakeup:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+    extra_configs:
+      - CONFIG_APP_USE_RETAINED_MEM=y
+      - CONFIG_GRTC_WAKEUP_ENABLE=y
+      - CONFIG_GPIO_WAKEUP_ENABLE=n
+  sample.system_off.lpcomp_wakeup:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+    extra_args: DTC_OVERLAY_FILE="boards/nrf54l15_connectkit_nrf54l15_cpuapp_comparator.overlay"
+    extra_configs:
+      - CONFIG_LPCOMP_WAKEUP_ENABLE=y
+      - CONFIG_GPIO_WAKEUP_ENABLE=n
+      - CONFIG_COMPARATOR=y
+  sample.system_off.retained_mem.lpcomp_wakeup:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+    extra_args:
+      - "DTC_OVERLAY_FILE=
+         boards/nrf54l15_connectkit_nrf54l15_cpuapp_comparator.overlay;
+         boards/nrf54l15_connectkit_nrf54l15_cpuapp.overlay"
+    extra_configs:
+      - CONFIG_APP_USE_RETAINED_MEM=y
+      - CONFIG_GPIO_WAKEUP_ENABLE=n
+      - CONFIG_LPCOMP_WAKEUP_ENABLE=y
+      - CONFIG_RETAINED_MEM=y
+      - CONFIG_COMPARATOR=y

@@ -1,0 +1,18 @@
+sample:
+  name: OpenThread Co-Processor sample
+
+tests:
+  sample.openthread.coprocessor:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.coprocessor.vendor_hook:
+    sysbuild: true
+    build_only: true
+    extra_args: >
+      SNIPPET="ci;logging;vendor_hook"
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns

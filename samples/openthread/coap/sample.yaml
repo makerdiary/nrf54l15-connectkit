@@ -1,0 +1,19 @@
+sample:
+  name: OpenThread FTD CoAP
+  description: Runs the OpenThread stack as FTD with CoAP
+
+tests:
+  sample.openthread.coap.client:
+    sysbuild: true
+    build_only: true
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
+  sample.openthread.coap.server:
+    sysbuild: true
+    build_only: true
+    extra_configs:
+      - CONFIG_OT_COAP_SAMPLE_SERVER=y
+    integration_platforms:
+      - nrf54l15_connectkit/nrf54l15/cpuapp
+      - nrf54l15_connectkit/nrf54l15/cpuapp/ns
