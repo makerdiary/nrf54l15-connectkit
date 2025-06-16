@@ -1,0 +1,297 @@
+# Copyright (c) 2016-2025 Makerdiary <https://makerdiary.com>
+#
+# SPDX-License-Identifier: Apache-2.0
+
+# Project information
+site_name: nRF54L15 Connect Kit
+site_url: https://wiki.makerdiary.com/nrf54l15-connectkit
+site_author: makerdiary
+site_description: >-
+  The documentation offers all you need to start developing with nRF54L15 Connect Kit.
+  nRF54L15 Connect Kit is a versatile prototyping kit built around the nRF54L15 SoC with
+  Bluetooth LE 6.0, Thread®, Matter, Zigbee®, 4 Mbps proprietary 2.4 GHz mode, NFC and
+  enhanced security. With integrated Inteface MCU for debugging and programming, easy-to-use
+  form factor, flexible power management, and nRF Connect SDK support, you can rapidly prototype
+  next-gen IoT devices.
+
+# Repository
+repo_name: makerdiary/nrf54l15-connectkit
+repo_url: https://github.com/makerdiary/nrf54l15-connectkit
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: 'Copyright &copy; 2016-2025 <a href="https://makerdiary.com" target="_blank">makerdiary</a>'
+
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/.overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+  # Announcement bar
+  announcement: ""
+  # Home page
+  home:
+    hero:
+      title: Rapid Prototyping Kit for Your Next-Gen IoT Devices
+      description: >-
+        Powered by the nRF54L15 multiprotocol SoC with Bluetooth LE 6.0, Thread®, Matter, Zigbee®, 4 Mbps proprietary
+        2.4 GHz mode, NFC and enhanced security. With integrated Inteface MCU for debugging and programming, easy-to-use
+        form factor, flexible power management, and nRF Connect SDK support, you can rapidly prototype next-gen IoT devices.
+      image: assets/images/nrf54l15-connectkit-prod-hero.png
+      button_primary:
+        label: Quick Start
+        link: getting-started
+      button_secondary:
+        label: Buy Now
+        link: https://makerdiary.com/products/nrf54l15-connectkit
+    multicolumn:
+      id: everything-you-would-expect
+      heading: Everything you would expect
+      columns:
+        - icon: microcotroller
+          title: Powered by nRF54L15 SoC
+          description: >-
+            nRF54L15 is a ultra-low-power wireless SoC featuring a 128 MHz Arm Cortex®-M33 processor and a 128 MHz RISC-V coprocessor
+            with 1.5 MB NVM and 256 KB RAM. It supports Bluetooth LE 6.0, Thread®, Matter, Zigbee®, 4 Mbps proprietary 2.4 GHz mode,
+            NFC and enhanced security.
+        - icon: material/console-network
+          title: On-board Interface MCU
+          description: >-
+            Integrate an nRF52820-based Interface MCU for onboard debugging and programming, eliminating the need for external tools.
+            The Interface MCU also includes a USB-UART bridge for log, trace and terminal emulation, and an Interface Shell to access
+            the board-specific functionality.
+        - icon: material/chip
+          title: Easy-to-use Form Factor
+          description: >-
+            Featuring USB-C, LEDs, Buttons, U.FL receptacles for U.FL cabled 2.4 GHz Antenna and 13.56 MHz NFC Antenna, Arm Serial Wire
+            Debug (SWD) port and dual-row 40 pins with loose or pre-soldered headers available.
+        - icon: material/cable-data
+          title: Flexible Power Management
+          description: >-
+            Integrated TPS63901 buck-boost converter with 75-nA quiescent current and 1.8V/3.3V configurable power supply for I/Os,
+            supporting various options for easily powering the unit from USB-C, external supplies or batteries.
+        - icon: material/link-box-variant
+          title: Built on Open Source
+          description: >-
+            nRF Connect SDK is supported, including the Zephyr RTOS. Developers can explore the full potential of the nRF54L15 using
+            the extensive range of software samples, modules, and libraries available within the nRF Connect SDK.
+        - icon: material/file-document-check
+          title: Well Documented
+          description: >-
+            An extensive set of documentation is available, including getting started and developer guides which can help
+            you save big by reducing development effort. The documentation is hosted as a GitHub repository that allows
+            managing the updates over time.
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - blog:
+      blog_dir: blog
+      post_date_format: medium
+      pagination_per_page: 6
+      pagination_keep_content: true
+      post_url_format: "{slug}"
+      post_readtime_words_per_minute: 128
+      categories: false
+      archive: false
+  - minify:
+      minify_html: true
+
+# Additional configuration
+extra:
+  generator: false
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/shopify
+      link: https://makerdiary.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/makerdiary
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/makerdiary
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/makerdiary
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/makerdiary
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@makerdiary
+    - icon: fontawesome/brands/discourse
+      link: https://community.makerdiary.com
+    - icon: fontawesome/solid/envelope
+      link: mailto:hi@makerdiary.com
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - .overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: makerdiary
+      repo: nrf54l15-connectkit
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Product:
+    - Introduction: introduction.md
+    - Hardware description: hardware.md
+    - Purchase: purchase.md
+    - Resources: resources.md
+    - Revision history: revision-history.md
+    - License: LICENSE.md
+  - Getting Started:
+    - Quick Start Guide: getting-started.md
+    - Troubleshooting: troubleshooting.md
+  - Developer Guides:
+    - nRF Connect SDK:
+      - guides/ncs/index.md
+      - Getting Started Guide: guides/ncs/getting-started.md
+      - Applications:
+        - guides/ncs/applications/index.md
+        - Quick Start Demo: guides/ncs/applications/quick_start_demo.md
+        - Interface MCU Firmware: guides/ncs/applications/ifmcu.md
+      - Samples:
+        - guides/ncs/samples/index.md
+        - Hello World: guides/ncs/samples/hello_world.md
+        - Blinky: guides/ncs/samples/blinky.md
+        - Button: guides/ncs/samples/button.md
+        - ADC: guides/ncs/samples/adc.md
+        - Sensor:
+          - Die Temperature Polling: guides/ncs/samples/sensor/die_temp_polling.md
+          - BME68X Gas Sensor: guides/ncs/samples/sensor/bme68x_iaq.md
+        - Shell: guides/ncs/samples/shell.md
+        - System OFF: guides/ncs/samples/system_off.md
+        - NFC:
+          - Launch App: guides/ncs/samples/nfc/launch_app.md
+          - Text Record: guides/ncs/samples/nfc/text_record.md
+          - URI Record: guides/ncs/samples/nfc/uri_record.md
+          - Writable NDEF Message: guides/ncs/samples/nfc/writable_ndef_msg.md
+          - System OFF: guides/ncs/samples/nfc/system_off.md
+        - Bluetooth Low Energy:
+          - Beacon: guides/ncs/samples/bluetooth/beacon.md
+          - Observer: guides/ncs/samples/bluetooth/observer.md
+          - Channel Sounding: guides/ncs/samples/bluetooth/channel_sounding.md
+          - Peripheral LBS: guides/ncs/samples/bluetooth/peripheral_lbs.md
+          - Peripheral HIDS Keyboard: guides/ncs/samples/bluetooth/peripheral_hids_keyboard.md
+          - Peripheral HIDS Mouse: guides/ncs/samples/bluetooth/peripheral_hids_mouse.md
+          - NUS Shell Transport: guides/ncs/samples/bluetooth/shell_bt_nus.md
+        - Thread:
+          - CLI: guides/ncs/samples/thread/cli.md
+          - CoAP: guides/ncs/samples/thread/coap.md
+          - Co-processor: guides/ncs/samples/thread/coprocessor.md
+        - Matter:
+          - guides/ncs/samples/matter/index.md
+        - Zigbee:
+          - guides/ncs/samples/zigbee/index.md
+    - Programming Guide:
+      - guides/programming/index.md
+      - Programming the nRF54L15: guides/programming/programming-the-nrf54l15.md
+      - Interface MCU Firmware Update: guides/programming/ifmcu-fw-update.md
+  - Blog:
+    - blog/index.md
+  - Community:
+    - Contributing:
+      - contributing/index.md
+      - Reporting a bug: contributing/reporting-a-bug.md
+      - Creating a pull request: contributing/creating-a-pull-request.md
+      - Asking a question: https://github.com/makerdiary/nrf54l15-connectkit/discussions
