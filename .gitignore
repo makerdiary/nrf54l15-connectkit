@@ -1,0 +1,25 @@
+# editors
+.vscode
+*.swp
+*~
+
+# python
+.venv
+
+# build
+/build*
+/twister-out*
+
+# firmware
+firmware
+
+# tests
+tests/factory_test
+
+__pycache__/
+
+# mkdocs
+site
+
+# macOS internals
+.DS_Store
