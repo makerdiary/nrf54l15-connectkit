@@ -1,6 +1,6 @@
 ---
 title: Introducing nRF Connect SDK
-date: 2025-07-02
+date: 2025-08-08
 authors:
   - makerdiary
 cover: cover.png

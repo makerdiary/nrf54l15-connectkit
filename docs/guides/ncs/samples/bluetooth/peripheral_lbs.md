@@ -97,8 +97,9 @@ After programming the sample, test it by performing the following steps:
 3. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 	``` { .txt .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-	*** Using Zephyr OS v4.1.99-701bd803eafa ***
+	*** Booting My Application v3.1.99-a066fee2256a ***
+	*** Using nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+	*** Using Zephyr OS v4.1.99-797a60e8542a ***
 	Starting Bluetooth Peripheral LBS sample
 	Bluetooth initialized
 	Advertising successfully started

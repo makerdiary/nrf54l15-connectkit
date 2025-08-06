@@ -16,7 +16,7 @@ hide:
 
     The Interface MCU enables onboard debugging and programming, eliminating the need for external tools, while enabling access to board-specific features.
 
-    :octicons-calendar-24: July 03, 2025 ・ :octicons-clock-24: 3 min read
+    :octicons-calendar-24: Aug 09, 2025 ・ :octicons-clock-24: 3 min read
 
     [introducing-interface-mcu]: ./blog/posts/introducing-interface-mcu/index.md
 
@@ -26,7 +26,7 @@ hide:
 
     nRF Connect SDK is a scalable and unified software development kit for building low-power wireless applications based on the Nordic Semiconductor wireless devices.
 
-    :octicons-calendar-24: July 02, 2025 ・ :octicons-clock-24: 6 min read
+    :octicons-calendar-24: Aug 08, 2025 ・ :octicons-clock-24: 6 min read
 
     [introducing-nrf-connect-sdk]: ./blog/posts/introducing-nrf-connect-sdk/index.md
 
@@ -36,7 +36,7 @@ hide:
 
     Today, we’re thrilled to launch the nRF54L15 Connect Kit, enabling developers to harness the advanced capabilities of Nordic’s nRF54L15 SoC for cutting-edge IoT designs.
 
-    :octicons-calendar-24: July 01, 2025 ・ :octicons-clock-24: 5 min read
+    :octicons-calendar-24: Aug 07, 2025 ・ :octicons-clock-24: 5 min read
 
     [nrf54l15-connect-kit-now-available]: ./blog/posts/nrf54l15-connect-kit-now-available/index.md
 

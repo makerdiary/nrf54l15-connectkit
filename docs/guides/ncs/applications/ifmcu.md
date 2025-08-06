@@ -82,7 +82,10 @@ To flash the firmware, complete the following steps:
 
 You can use the CMSIS-DAP Interface to debug or program the nRF54L15.
 
-Before you start, a tool that supports the CMSIS-DAP protocol should be installed. The latest pyOCD package from the HEAD of the `develop` branch is required. pyOCD will be installed after setting up your development environment in [Getting Started Guide].
+Before you start, a tool that supports the CMSIS-DAP protocol should be installed. [pyOCD v0.38.0] or newer is required. pyOCD will be installed after setting up your development environment in [Getting Started Guide].
+
+!!! Note
+	On Linux, permission to access USB devices from user space must be explicitly granted via udev rules. See [udev rules on Linux] for detailed instructions. 
 
 The following sections show the typical use cases with pyOCD:
 
@@ -276,3 +279,5 @@ The following table describes all supported commands of the Interface Shell:
 [Interface MCU Firmware]: https://github.com/makerdiary/nrf54l15-connectkit/tree/main/applications/ifmcu_firmware
 [PuTTY]: https://apps.microsoft.com/store/detail/putty/XPFNZKSKLBP7RJ
 [pyOCD Documentation]: https://pyocd.io/docs/
+[pyOCD v0.38.0]: https://github.com/pyocd/pyOCD/releases/tag/v0.38.0
+[udev rules on Linux]: ../../../troubleshooting.md#udev-rules-on-linux

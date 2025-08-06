@@ -113,25 +113,26 @@ Open up a serial terminal, specifying the Zephyr Shell COM port:
 Press the **DFU/RST** button to reset the nRF54L15. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 ```{ .txt .no-copy linenums="1" title="Terminal" }
-*** Booting Quick Start Demo v3.0.99-1a6c72f84a4f ***
-*** Using nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-*** Using Zephyr OS v4.1.99-701bd803eafa ***
-[00:59:05.574,367] <inf> main: NFC configuration done
-[00:59:05.574,969] <inf> fs_zms: 2 Sectors of 4096 bytes
-[00:59:05.574,978] <inf> fs_zms: alloc wra: 0, ef0
-[00:59:05.574,985] <inf> fs_zms: data wra: 0, 90
-[00:59:05.575,206] <inf> bt_sdc_hci_driver: SoftDevice Controller build revision:
-											45 cf f0 60 96 1a 6b 63  10 19 b6 85 40 c5 83 b2 |E..`..kc ....@...
-											18 e5 4f bc                                      |..O.
-[00:59:05.576,506] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
-[00:59:05.576,521] <inf> bt_hci_core: HW Variant: nRF54Lx (0x0005)
-[00:59:05.576,536] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 69.61647 Build 1796904544
-[00:59:05.576,668] <inf> bt_hci_core: No ID address. App must call settings_load()
-[00:59:05.576,675] <inf> main: Bluetooth initialized
-[00:59:05.577,012] <inf> bt_hci_core: Identity: F4:3D:C2:1E:6E:74 (random)
-[00:59:05.577,030] <inf> bt_hci_core: HCI: version 6.0 (0x0e) revision 0x311b, manufacturer 0x0059
-[00:59:05.577,046] <inf> bt_hci_core: LMP: version 6.0 (0x0e) subver 0x311b
-[00:59:05.578,386] <inf> main: Advertising successfully started
+*** Booting Quick Start Demo v3.1.99-a066fee2256a ***
+*** Using nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+*** Using Zephyr OS v4.1.99-797a60e8542a ***
+[00:22:39.586,109] <inf> main: NFC configuration done
+[00:22:39.586,692] <inf> fs_zms: 2 Sectors of 4096 bytes
+[00:22:39.586,701] <inf> fs_zms: alloc wra: 0, f70
+[00:22:39.586,707] <inf> fs_zms: data wra: 0, 10
+[00:22:39.586,936] <inf> bt_sdc_hci_driver: SoftDevice Controller build revision:
+                                            99 5f 1f 6f ee b0 f8 81  c7 70 85 66 0c 42 f5 8a |._.o.... .p.f.B..
+                                            58 1a cc 2b                                      |X..+
+[00:22:39.588,516] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
+[00:22:39.588,529] <inf> bt_hci_core: HW Variant: nRF54Lx (0x0005)
+[00:22:39.588,542] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
+[00:22:39.588,682] <inf> bt_hci_core: No ID address. App must call settings_load()
+[00:22:39.588,688] <inf> main: Bluetooth initialized
+[00:22:39.589,004] <inf> bt_hci_core: HCI transport: SDC
+[00:22:39.589,053] <inf> bt_hci_core: Identity: EF:11:48:A5:EA:6D (random)
+[00:22:39.589,069] <inf> bt_hci_core: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
+[00:22:39.589,082] <inf> bt_hci_core: LMP: version 6.1 (0x0f) subver 0x305d
+[00:22:39.590,551] <inf> main: Advertising successfully started
 uart:~$
 ```
 

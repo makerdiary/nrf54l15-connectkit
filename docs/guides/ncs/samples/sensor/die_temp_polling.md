@@ -96,8 +96,8 @@ After programming the sample, test it by performing the following steps:
 3. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 	``` { .txt .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-	*** Using Zephyr OS v4.1.99-701bd803eafa ***
+	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+	*** Using Zephyr OS v4.1.99-797a60e8542a ***
 	CPU Die temperature[temp@d7000]: 32.5 °C
 	CPU Die temperature[temp@d7000]: 32.5 °C
 	CPU Die temperature[temp@d7000]: 32.2 °C

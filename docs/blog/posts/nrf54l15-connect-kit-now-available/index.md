@@ -1,6 +1,6 @@
 ---
 title: nRF54L15 Connect Kit Now Available
-date: 2025-07-01
+date: 2025-08-07
 authors:
   - makerdiary
 cover: cover.png

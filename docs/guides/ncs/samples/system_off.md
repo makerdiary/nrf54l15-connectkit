@@ -98,15 +98,15 @@ After programming the sample, test it by performing the following steps:
 	=== "Default"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 
 		nrf54l15_connectkit system off demo
 		Other wake up cause 0x00000001.
 		Retained data not supported
 		Entering system off; press sw0 to restart
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 
 		nrf54l15_connectkit system off demo
 		Wakeup from System OFF by GPIO.
@@ -118,8 +118,8 @@ After programming the sample, test it by performing the following steps:
 	=== "RAM retention"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 
 		nrf54l15_connectkit system off demo
 		Other wake up cause 0x00000001.
@@ -128,8 +128,8 @@ After programming the sample, test it by performing the following steps:
 		Off count: 0
 		Active Ticks: 548
 		Entering system off; press sw0 to restart
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 
 		nrf54l15_connectkit system off demo
 		Wakeup from System OFF by GPIO.

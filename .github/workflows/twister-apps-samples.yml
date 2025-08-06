@@ -48,6 +48,4 @@ jobs:
         working-directory: nrf54l15-connectkit
         shell: bash
         run: |
-          west config manifest.group-filter +bsec
-          west update
           west twister -T samples -v --inline-logs --integration

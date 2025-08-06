@@ -11,7 +11,7 @@ Before you start, check that you have the required hardware and software:
 - 1x [nRF54L15 Connect Kit](https://makerdiary.com/products/nrf54l15-connectkit)
 - 1x USB-C Cable
 - [Python] 3.10.0 or newer
-- [pyOCD v0.36.1+]
+- [pyOCD v0.38.0]
 - A computer running macOS, Ubuntu, or Windows 10 or newer
 
 !!! Tip
@@ -19,26 +19,30 @@ Before you start, check that you have the required hardware and software:
 
 ## Installing pyOCD
 
-To program the nRF54L15, a tool that supports the CMSIS-DAP protocol should be installed. The latest pyOCD package from the HEAD of the `develop` branch is required.
-Open up a terminal and run:
+To program the nRF54L15, a tool that supports the CMSIS-DAP protocol should be installed. [pyOCD v0.38.0] or newer is required.
+
+The latest stable version of pyOCD may be installed via [pip]. Open up a terminal and run:
 
 === "Windows"
 
     ``` bat
-    py -3 -m pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
+    py -3 -m pip install -U pyocd
     ```
 
 === "macOS"
 
     ``` bash
-    python3 -m pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
+    python3 -m pip install -U pyocd
     ```
 
 === "Ubuntu"
 
     ``` bash
-    python3 -m pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
+    python3 -m pip install -U pyocd
     ```
+
+    !!! Note
+        On Linux, permission to access USB devices from user space must be explicitly granted via udev rules. See [udev rules on Linux] for detailed instructions. 
 
 ## Connecting the board
 
@@ -87,5 +91,7 @@ pyocd erase -t nrf54l --chip
 ```
 
 [Python]: https://www.python.org/downloads/
-[pyOCD v0.36.1+]: https://github.com/pyocd/pyOCD/tree/develop
+[pyOCD v0.38.0]: https://github.com/pyocd/pyOCD/releases/tag/v0.38.0
+[udev rules on Linux]: ../../troubleshooting.md#udev-rules-on-linux
+[pip]: https://pip.pypa.io/en/stable/index.html
 [Getting Started Guide]: ../ncs/getting-started.md

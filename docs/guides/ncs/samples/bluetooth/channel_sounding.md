@@ -122,21 +122,22 @@ After programming the initiator and the reflector, test them by performing the f
 	=== "Initiator"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 		I: Starting Channel Sounding Initiator Sample
 		I: SoftDevice Controller build revision:
-		I: 87 e5 a8 2e bf fc fb 8b |........
-		I: b8 6d 39 57 fc a3 58 69 |.m9W..Xi
-		I: 16 ef 8d d8             |....
+		I: 99 5f 1f 6f ee b0 f8 81 |._.o....
+		I: c7 70 85 66 0c 42 f5 8a |.p.f.B..
+		I: 58 1a cc 2b             |X..+
 		I: HW Platform: Nordic Semiconductor (0x0002)
 		I: HW Variant: nRF54Lx (0x0005)
-		I: Firmware: Standard Bluetooth controller (0x00) Version 135.43237 Build 4227645230
+		I: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
+		I: HCI transport: SDC
 		I: Identity: EF:11:48:A5:EA:6D (random)
-		I: HCI: version 6.0 (0x0e) revision 0x3104, manufacturer 0x0059
-		I: LMP: version 6.0 (0x0e) subver 0x3104
+		I: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
+		I: LMP: version 6.1 (0x0f) subver 0x305d
 		I: Filters matched. Address: F4:3D:C2:1E:6E:74 (random) connectable: 1
-		I:Connecting
+		I: Connecting
 		I: Connected to F4:3D:C2:1E:6E:74 (random) (err 0x00)
 		I: Security changed: F4:3D:C2:1E:6E:74 (random) level 2
 		I: MTU exchange success (498)
@@ -156,28 +157,34 @@ After programming the initiator and the reflector, test them by performing the f
 		- procedure interval: 5
 		- procedure count: 0
 		- maximum procedure length: 1000
-		I: Distance estimates on antenna path 0: ifft: 1.298238, phase_slope: 1.764071, rtt: 12.967411
+		I: Distance estimates on antenna path 0: ifft: 1.610213, phase_slope: 2.249911, rtt: 13.750394
 		I: Sleeping for a few seconds...
-		I: Distance estimates on antenna path 0: ifft: 1.020813, phase_slope: 1.279424, rtt: 13.063597
+		I: Distance estimates on antenna path 0: ifft: 1.756596, phase_slope: 2.404551, rtt: 13.855685
+		I: Sleeping for a few seconds...
+		I: Distance estimates on antenna path 0: ifft: 1.756596, phase_slope: 2.046242, rtt: 13.543401
+		I: Sleeping for a few seconds...
+		I: Distance estimates on antenna path 0: ifft: 1.756596, phase_slope: 2.150647, rtt: 13.648731
+		I: Sleeping for a few seconds...
 		...
 		```
 
 	=== "Reflector"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-		*** Using Zephyr OS v4.1.99-701bd803eafa ***
+		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+		*** Using Zephyr OS v4.1.99-797a60e8542a ***
 		I: Starting Channel Sounding Reflector Sample
 		I: SoftDevice Controller build revision:
-		I: 87 e5 a8 2e bf fc fb 8b |........
-		I: b8 6d 39 57 fc a3 58 69 |.m9W..Xi
-		I: 16 ef 8d d8             |....
+		I: 99 5f 1f 6f ee b0 f8 81 |._.o....
+		I: c7 70 85 66 0c 42 f5 8a |.p.f.B..
+		I: 58 1a cc 2b             |X..+
 		I: HW Platform: Nordic Semiconductor (0x0002)
 		I: HW Variant: nRF54Lx (0x0005)
-		I: Firmware: Standard Bluetooth controller (0x00) Version 135.43237 Build 4227645230
+		I: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
+		I: HCI transport: SDC
 		I: Identity: F4:3D:C2:1E:6E:74 (random)
-		I: HCI: version 6.0 (0x0e) revision 0x3104, manufacturer 0x0059
-		I: LMP: version 6.0 (0x0e) subver 0x3104
+		I: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
+		I: LMP: version 6.1 (0x0f) subver 0x305d
 		I: Connected to EF:11:48:A5:EA:6D (random) (err 0x00)
 		I: CS capability exchange completed.
 		I: CS config creation complete. ID: 0

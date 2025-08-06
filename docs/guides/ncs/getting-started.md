@@ -264,12 +264,6 @@ In the following instructions the name `NCS-Project` is used for the workspace, 
 		west packages pip --install
 		```
 
-	9. To flash and debug the nRF54L15, the latest pyOCD package from the HEAD of the `develop` branch is required:
-
-		``` bat
-		pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
-		```
-
 === "macOS"
 
 	1. Create a new virtual environment:
@@ -346,12 +340,6 @@ In the following instructions the name `NCS-Project` is used for the workspace, 
 
 		``` bash
 		west packages pip --install
-		```
-
-	8. To flash and debug the nRF54L15, the latest pyOCD package from the HEAD of the `develop` branch is required:
-
-		``` bash
-		pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
 		```
 
 === "Ubuntu"
@@ -436,12 +424,6 @@ In the following instructions the name `NCS-Project` is used for the workspace, 
 
 		``` bash
 		west packages pip --install
-		```
-
-	9. To flash and debug the nRF54L15, the latest pyOCD package from the HEAD of the `develop` branch is required:
-
-		``` bat
-		pip install git+https://github.com/pyocd/pyOCD.git@develop --upgrade
 		```
 
 		!!! Note
@@ -599,8 +581,8 @@ Open up a serial terminal, specifying the primary COM port that your computer us
 Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 ``` { .txt .no-copy linenums="1" title="Terminal" }
-*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-*** Using Zephyr OS v4.1.99-701bd803eafa ***
+*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+*** Using Zephyr OS v4.1.99-797a60e8542a ***
 LED state: OFF
 LED state: ON
 LED state: OFF

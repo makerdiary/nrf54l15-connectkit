@@ -108,8 +108,8 @@ After programming the sample, test it by performing the following steps:
 3. Once the sample starts running, you should see the following output:
 
 	``` { .bash .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-preview2-3674486b55f7 ***
-	*** Using Zephyr OS v4.1.99-701bd803eafa ***
+	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
+	*** Using Zephyr OS v4.1.99-797a60e8542a ***
 	Starting NFC Writable NDEF Message sample
 	NDEF file record not found, creating default NDEF.
 	```
@@ -120,9 +120,13 @@ After programming the sample, test it by performing the following steps:
 
 6. Open NFC Tools app, tap the __Write__ tab at the bottom of the screen and tap __+ Add a record__ to add your new NDEF records.
 
-7. Tap __Write__ and touch the NFC antenna again to write the new message.
+7. Tap __Write__ and touch the NFC antenna again to write the new message. If successful, you will see the following output:
 
-8. Go back to the __Read__ tab and rescan the tag to confirm your new message appears.
+	``` { .bash .no-copy linenums="5" title="Terminal" }
+	NDEF message successfully flashed.
+	```
+
+8. Go back to the __Read__ tab and rescan the tag to confirm your new message appears. 
 
 [NFC Data Exchange Format (NDEF)]: https://docs.nordicsemi.com/bundle/ncs-latest/page/nrf/libraries/nfc/ndef/index.html#lib-nfc-ndef
 [Getting Started Guide]: ../../getting-started.md
