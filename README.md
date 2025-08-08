@@ -2,7 +2,7 @@
 
 > Rapid Prototyping Kit for Your Next-Gen IoT Devices powered by the nRF54L15 Multiprotocol SoC
 
-[![](https://img.shields.io/badge/In%20Stock-brightgreen)][nrf54l15-connectkit]
+[![](https://img.shields.io/badge/In%20Stock-3ed660)][nrf54l15-connectkit]
 [![Current Version](https://img.shields.io/github/tag/makerdiary/nrf54l15-connectkit.svg)](https://github.com/makerdiary/nrf54l15-connectkit/tags)
 [![Documentation](https://github.com/makerdiary/nrf54l15-connectkit/actions/workflows/documentation.yml/badge.svg?branch=main)](https://wiki.makerdiary.com/nrf54l15-connectkit)
 [![Twister Apps & Samples](https://github.com/makerdiary/nrf54l15-connectkit/actions/workflows/twister-apps-samples.yml/badge.svg?branch=main)](https://wiki.makerdiary.com/nrf54l15-connectkit/guides/ncs/)
