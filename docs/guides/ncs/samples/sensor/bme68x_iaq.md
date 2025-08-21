@@ -140,8 +140,8 @@ After programming the sample, test it by performing the following steps:
 3. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 	``` { .txt .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-	*** Using Zephyr OS v4.1.99-797a60e8542a ***
+	*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+	*** Using Zephyr OS v4.1.99-1612683d4010 ***
 	[00:00:00.019,106] <inf> app: App started
 	[00:00:06.044,229] <inf> app: temp: 29.605730; press: 99450.281250; humidity: 73.636467; iaq: 50; CO2: 500.000000; VOC: 0.499999
 	[00:00:09.044,289] <inf> app: temp: 28.835971; press: 99446.812500; humidity: 76.732482; iaq: 50; CO2: 500.000000; VOC: 0.499999

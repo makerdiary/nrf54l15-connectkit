@@ -53,7 +53,7 @@ jobs:
           path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      - name: Install Python dependencies
+      - name: Install mkdocs-material dependencies
         run: |
           pip install -r scripts/requirements-docs.txt
       - name: Build site

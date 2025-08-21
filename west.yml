@@ -20,5 +20,5 @@ manifest:
     - name: nrf
       remote: nrfconnect
       repo-path: sdk-nrf
-      revision: v3.1.0-rc1
+      revision: v3.1.0
       import: true

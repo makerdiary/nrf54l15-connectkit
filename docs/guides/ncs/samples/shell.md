@@ -88,8 +88,8 @@ After programming the sample, test it by performing the following steps:
 3. Once the sample starts running, you should see the following output:
 
 	``` { .bash .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-	*** Using Zephyr OS v4.1.99-797a60e8542a ***
+	*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+	*** Using Zephyr OS v4.1.99-1612683d4010 ***
 	uart:~$
 	```
 

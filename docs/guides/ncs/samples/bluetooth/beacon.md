@@ -94,23 +94,19 @@ After programming the sample, test it by performing the following steps:
 3. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 	``` { .txt .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-	*** Using Zephyr OS v4.1.99-797a60e8542a ***
-	Reset by a different source (0x00000400)
-	NFC configuration done
-	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-	*** Using Zephyr OS v4.1.99-797a60e8542a ***
+	*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+	*** Using Zephyr OS v4.1.99-1612683d4010 ***
 	Starting Beacon Demo
-	[00:02:10.614,232] <inf> bt_sdc_hci_driver: SoftDevice Controller build revision:
-												99 5f 1f 6f ee b0 f8 81  c7 70 85 66 0c 42 f5 8a |._.o.... .p.f.B..
-												58 1a cc 2b                                      |X..+
-	[00:02:10.615,084] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
-	[00:02:10.615,097] <inf> bt_hci_core: HW Variant: nRF54Lx (0x0005)
-	[00:02:10.615,108] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
-	[00:02:10.615,450] <inf> bt_hci_core: HCI transport: SDC
-	[00:02:10.615,498] <inf> bt_hci_core: Identity: EF:11:48:A5:EA:6D (random)
-	[00:02:10.615,512] <inf> bt_hci_core: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
-	[00:02:10.615,524] <inf> bt_hci_core: LMP: version 6.1 (0x0f) subver 0x305d
+	[00:14:15.167,500] <inf> bt_sdc_hci_driver: SoftDevice Controller build revision:
+												fc de 41 eb a2 d1 42 24  00 b5 f8 57 9f ac 9d 9e |..A...B$ ...W....
+												aa c9 b4 34                                      |...4
+	[00:14:15.168,398] <inf> bt_hci_core: HW Platform: Nordic Semiconductor (0x0002)
+	[00:14:15.168,412] <inf> bt_hci_core: HW Variant: nRF54Lx (0x0005)
+	[00:14:15.168,424] <inf> bt_hci_core: Firmware: Standard Bluetooth controller (0x00) Version 252.16862 Build 1121034987
+	[00:14:15.168,782] <inf> bt_hci_core: HCI transport: SDC
+	[00:14:15.168,830] <inf> bt_hci_core: Identity: EF:11:48:A5:EA:6D (random)
+	[00:14:15.168,844] <inf> bt_hci_core: HCI: version 6.1 (0x0f) revision 0x3069, manufacturer 0x0059
+	[00:14:15.168,857] <inf> bt_hci_core: LMP: version 6.1 (0x0f) subver 0x3069
 	Bluetooth initialized
 	Beacon started, advertising as EF:11:48:A5:EA:6D (random)
 	```

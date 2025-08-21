@@ -92,8 +92,8 @@ west flash
 3. Observe the output of the terminal. You should see the output, similar to what is shown in the following:
 
 	``` { .txt .no-copy linenums="1" title="Terminal" }
-	*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-	*** Using Zephyr OS v4.1.99-797a60e8542a ***
+	*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+	*** Using Zephyr OS v4.1.99-1612683d4010 ***
 	LED state: OFF
 	LED state: ON
 	LED state: OFF

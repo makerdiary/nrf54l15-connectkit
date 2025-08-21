@@ -122,20 +122,20 @@ After programming the initiator and the reflector, test them by performing the f
 	=== "Initiator"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-		*** Using Zephyr OS v4.1.99-797a60e8542a ***
+		*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+		*** Using Zephyr OS v4.1.99-1612683d4010 ***
 		I: Starting Channel Sounding Initiator Sample
 		I: SoftDevice Controller build revision:
-		I: 99 5f 1f 6f ee b0 f8 81 |._.o....
-		I: c7 70 85 66 0c 42 f5 8a |.p.f.B..
-		I: 58 1a cc 2b             |X..+
+		I: fc de 41 eb a2 d1 42 24 |..A...B$
+		I: 00 b5 f8 57 9f ac 9d 9e |...W....
+		I: aa c9 b4 34             |...4
 		I: HW Platform: Nordic Semiconductor (0x0002)
 		I: HW Variant: nRF54Lx (0x0005)
-		I: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
+		I: Firmware: Standard Bluetooth controller (0x00) Version 252.16862 Build 1121034987
 		I: HCI transport: SDC
 		I: Identity: EF:11:48:A5:EA:6D (random)
-		I: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
-		I: LMP: version 6.1 (0x0f) subver 0x305d
+		I: HCI: version 6.1 (0x0f) revision 0x3069, manufacturer 0x0059
+		I: LMP: version 6.1 (0x0f) subver 0x3069
 		I: Filters matched. Address: F4:3D:C2:1E:6E:74 (random) connectable: 1
 		I: Connecting
 		I: Connected to F4:3D:C2:1E:6E:74 (random) (err 0x00)
@@ -171,20 +171,20 @@ After programming the initiator and the reflector, test them by performing the f
 	=== "Reflector"
 
 		``` { .txt .no-copy linenums="1" title="Terminal" }
-		*** Booting nRF Connect SDK v3.1.0-rc1-8505887182fe ***
-		*** Using Zephyr OS v4.1.99-797a60e8542a ***
+		*** Booting nRF Connect SDK v3.1.0-6c6e5b32496e ***
+		*** Using Zephyr OS v4.1.99-1612683d4010 ***
 		I: Starting Channel Sounding Reflector Sample
 		I: SoftDevice Controller build revision:
-		I: 99 5f 1f 6f ee b0 f8 81 |._.o....
-		I: c7 70 85 66 0c 42 f5 8a |.p.f.B..
-		I: 58 1a cc 2b             |X..+
+		I: fc de 41 eb a2 d1 42 24 |..A...B$
+		I: 00 b5 f8 57 9f ac 9d 9e |...W....
+		I: aa c9 b4 34             |...4
 		I: HW Platform: Nordic Semiconductor (0x0002)
 		I: HW Variant: nRF54Lx (0x0005)
-		I: Firmware: Standard Bluetooth controller (0x00) Version 153.8031 Build 4172344943
+		I: Firmware: Standard Bluetooth controller (0x00) Version 252.16862 Build 1121034987
 		I: HCI transport: SDC
-		I: Identity: F4:3D:C2:1E:6E:74 (random)
-		I: HCI: version 6.1 (0x0f) revision 0x305d, manufacturer 0x0059
-		I: LMP: version 6.1 (0x0f) subver 0x305d
+		I: Identity: EF:11:48:A5:EA:6D (random)
+		I: HCI: version 6.1 (0x0f) revision 0x3069, manufacturer 0x0059
+		I: LMP: version 6.1 (0x0f) subver 0x3069
 		I: Connected to EF:11:48:A5:EA:6D (random) (err 0x00)
 		I: CS capability exchange completed.
 		I: CS config creation complete. ID: 0
