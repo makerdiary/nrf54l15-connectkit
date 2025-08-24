@@ -22,7 +22,7 @@
 - [RoHS & REACH Declaration of Conformity][ROHS_REACH-DOC]
 
 
-[Pinout PDF]: ./assets/attachments/nrf54ll15-connect-kit-pinout-diagram_reva.pdf
+[Pinout PDF]: ./assets/attachments/nrf54l15-connect-kit-pinout-diagram_reva.pdf
 [Board DXF Files]: ./assets/attachments/nrf54l15-connect-kit-board-dxf_reva.zip
 [Schematic PDF]: ./assets/attachments/nrf54l15-connect-kit-schematic_reva.pdf
 [3D MODEL]: ./assets/attachments/nrf54l15-connect-kit-3d-model_reva.step

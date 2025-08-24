@@ -79,4 +79,4 @@ suit your specific needs.
 [TPS63901]: https://www.ti.com/product/TPS63901
 [nRF Connect SDK]: https://github.com/nrfconnect/sdk-nrf
 [Zephyr RTOS]: https://github.com/zephyrproject-rtos/zephyr
-[HW Diagram PDF]: ./assets/attachments/nrf54ll15-connect-kit-pinout-diagram_reva.pdf
+[HW Diagram PDF]: ./assets/attachments/nrf54l15-connect-kit-pinout-diagram_reva.pdf

@@ -184,7 +184,7 @@ The following table describes the functions of the test points:
 | TP4         | IF_SWCLK  | Serial wire debug clock input of the Interface MCU (nRF52820). |
 | TP5         | IF_SWDIO  | Serial wire debug I/O of the Interface MCU (nRF52820). |
 
-[HW Diagram PDF]: ./assets/attachments/nrf54ll15-connect-kit-pinout-diagram_reva.pdf
+[HW Diagram PDF]: ./assets/attachments/nrf54l15-connect-kit-pinout-diagram_reva.pdf
 [Board DXF Files]: ./assets/attachments/nrf54l15-connect-kit-board-dxf_reva.zip
 [TPS63901]: https://www.ti.com/product/TPS63901
 [nRF52820]: https://www.nordicsemi.com/Products/nrf52820

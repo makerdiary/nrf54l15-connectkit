@@ -110,7 +110,7 @@ This project may include some imported or reused components that are licensed un
 [ncs]: https://github.com/nrfconnect/sdk-nrf
 [zephyr]: https://github.com/zephyrproject-rtos/zephyr
 [hw-desc]: https://wiki.makerdiary.com/nrf54l15-connectkit/hardware/
-[pinout-pdf]: https://wiki.makerdiary.com/nrf54l15-connectkit/assets/attachments/nrf54ll15-connect-kit-pinout-diagram_reva.pdf
+[pinout-pdf]: https://wiki.makerdiary.com/nrf54l15-connectkit/assets/attachments/nrf54l15-connect-kit-pinout-diagram_reva.pdf
 [wiki]: https://wiki.makerdiary.com/nrf54l15-connectkit/
 [product-brief]: https://wiki.makerdiary.com/nrf54l15-connectkit/introduction/
 [quick-start]: https://wiki.makerdiary.com/nrf54l15-connectkit/getting-started/
