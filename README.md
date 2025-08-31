@@ -87,7 +87,7 @@ We offer a comprehensive set of documentation, including getting started guides,
 nRF54L15 Connect Kit is available on the following channels (click to go directly to the product):
 
 <a href="https://makerdiary.com/products/nrf54l15-connectkit"><img alt="makerdiary store" display="inline" src="./docs/assets/images/makerdiary-store-github.png" width="256"></a>
-<a href="https://zaowubang.taobao.com"><img alt="Taobao" display="inline" src="./docs/assets/images/taobao-store-github.png" width="256"></a>
+<a href="https://item.taobao.com/item.htm?ft=t&id=970651099950"><img alt="Taobao" display="inline" src="./docs/assets/images/taobao-store-github.png" width="256"></a>
 <a href="https://www.tindie.com/products/makerdiary/nrf54l15-connect-kit"><img alt="Tindie" display="inline" src="./docs/assets/images/tindie-store-github.png" width="256"></a>
 
 ## Community Support
